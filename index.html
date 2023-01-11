@@ -47,24 +47,54 @@
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
   <div id="fix-this" style="overflow-x: hidden">
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-custom">
-      <div class="container-fluid">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <a href="#" class="navbar-brand" 
+        >MS</a
+      >
+      <!-- course-logo-font-->
+      <div class="container"> 
+        <!-- Logo -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-main-collapse"
+          >
+            <!--<i class="fa fa-bars hamburger-icon"></i>-->
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-            <span class="icon-bar"></span>                        
+            <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">WebSiteName</a>
+          <!-- navbar-toggle -->
+          <a class="navbar-brand page-scroll" href="#page-top">
+            <!-- <i class="fa fa-code"></i> -->
+          </a>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#course-info">Home</a></li>
-            <li><a href="#my-interests">Page 2</a></li>
-            <li><a href="#more-info">Page 3</a></li>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div
+          class="collapse navbar-collapse navbar-right navbar-main-collapse pull-right"
+        >
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <!-- nav navbar-nav"-->
+            <!--nav nav-pills navbar-right-->
+            <li class="hidden"><a href="#page-top"></a></li>
+            <li>
+              <a class="page-scroll" href="#course-info">Course Info</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#my-interests">Resources</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#more-info">Assignments</a>
+            </li>
           </ul>
         </div>
+        <!-- /.navbar-collapse -->
       </div>
+      <!-- /.container -->
     </nav>
 
     <!-- Intro Header -->
