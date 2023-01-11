@@ -1,5 +1,5 @@
 /*
- * Custom CSS for CS33
+ * Custom CSS for website
  */
 
  :root {
@@ -302,7 +302,7 @@ footer a {
   width: 20px;
   display: inline-block;
 }
-
+/* 
 .ta {
   display: inline-block;
   margin-left: 20px;
@@ -325,7 +325,7 @@ footer a {
   height: 135px;
   margin-top: 20px;
   margin-bottom: 10px;
-}
+} */
 
 
 /* Navbar */
