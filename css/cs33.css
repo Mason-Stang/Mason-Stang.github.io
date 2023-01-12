@@ -45,6 +45,7 @@ body {
   font-family: "Montserrat", Arial, serif;
   /* font-family: ComicText; */
   background-color: var(--green-bg);
+  margin: 0
 }
 
 html {
@@ -1028,5 +1029,8 @@ body {
 }
 
 /* I added this... */
+
+/* parallax */
+
 
 
