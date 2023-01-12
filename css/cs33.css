@@ -1078,7 +1078,7 @@ body {
 }
 
 .bg::after {
-  background: url("https://picsum.photos/1080/720");
+  background: url(../img/Mason_Stang_Portrait.png);
   background-size: cover;
 }
 
