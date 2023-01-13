@@ -1033,7 +1033,7 @@ body {
 /* parallax */
 
 .p-main {
-  height: 100vh;
+  min-height: 100vh; /*used to be just 'height'*/
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px;
@@ -1041,28 +1041,30 @@ body {
 
 .p-section {
   transform-style: preserve-3d;
-  position: relative;
-  height: 100vh;
-  display: flex;
+  /* position: relative; */
+  min-height: 100vh; /*used to be just 'height'*/
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: white; */
 }
 
 .no-parallax {
-  background-color: #111;
+  /* background-color: #111; */
   z-index: 999;
 }
 
-.p-section h1 {
+/* .p-section h1 {
   text-align: center;
   font-size: 4rem;
   font-family: sans-serif;
-}
+} */
 
 .parallax h1 {
   width: 60%;
   font-size: 2rem;
+  text-align: center; /*added*/
+  font-family: sans-serif;
 }
 
 .parallax::after {
