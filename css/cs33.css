@@ -1049,6 +1049,14 @@ body {
   color: white; */
 }
 
+/*include this?*/
+.parallax {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
 .no-parallax {
   /* background-color: #111; */
   z-index: 999;
