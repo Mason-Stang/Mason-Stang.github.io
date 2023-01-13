@@ -1033,7 +1033,7 @@ body {
 /* parallax */
 
 .p-main {
-  min-height: 100vh; /*used to be just 'height'*/
+  height: 100vh; /*used to be just 'height'*/
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px;
@@ -1042,7 +1042,7 @@ body {
 .p-section {
   transform-style: preserve-3d;
   /* position: relative; */
-  min-height: 100vh; /*used to be just 'height'*/
+  height: 100vh; /*used to be just 'height'*/
   /* display: flex;
   align-items: center;
   justify-content: center;
