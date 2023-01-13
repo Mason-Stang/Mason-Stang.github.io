@@ -586,7 +586,8 @@ footer a {
     -webkit-transition: background .2s ease-in-out, padding .2s ease-in-out;
     -moz-transition: background .2s ease-in-out, padding .2s ease-in-out;
     transition: background .2s ease-in-out, padding .2s ease-in-out;
-    display: flex: align-items: center;
+    display: flex;
+    align-items: center;
   }
 
   .section-title {
@@ -1042,7 +1043,13 @@ body {
 .p-section {
   transform-style: preserve-3d;
   /* position: relative; */
-  height: 100vh; /*used to be just 'height'*/
+
+  height: auto;
+
+  /* height: 100vh;*/ 
+  /*I don't understand. Changing this to 'height', not 'min-height', 
+  fixed the parallax but broke the nav bar*/
+
   /* display: flex;
   align-items: center;
   justify-content: center;
