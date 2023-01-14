@@ -7,7 +7,8 @@
   --body-text-color: #2a1a03;
   --light-tan-bg: #d7bc72;
   --lighter-tan-bg: #f0dca3;
-  --green-bg: #cad9c9;
+  /* --green-bg: #cad9c9; */
+  --green-bg: transparent;
   --light-green-bg: #9bb899;
 
   --camo-brown: #837957;
@@ -1034,7 +1035,7 @@ body {
 /* parallax */
 
 .p-main {
-  min-height: 100vh; /*used to be just 'height'*/
+  height: 100vh; 
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px;
@@ -1044,7 +1045,7 @@ body {
   transform-style: preserve-3d;
   /* position: relative; */
 
-  height: auto;
+  height: 100vh;
 
   /* height: 100vh;*/ 
   /*I don't understand. Changing this to 'height', not 'min-height', 
@@ -1063,18 +1064,20 @@ body {
   align-items: center;
   justify-content: center;
   color: white;
+
 }
 
 .no-parallax {
-  /* background-color: #111; */
+  background-color: #111;
   z-index: 999;
+  
 }
 
-/* .p-section h1 {
+.p-section h1 {
   text-align: center;
   font-size: 4rem;
   font-family: sans-serif;
-} */
+}
 
 .parallax h1 {
   width: 60%;
@@ -1098,6 +1101,28 @@ body {
 .bg::after {
   background: url(../img/Mason_Stang_Portrait.png);
   background-size: cover;
+  /* background-color: transparent; */
+
+}
+
+#portrait {
+  height: 100vh;
+  /* position: relative;  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /* background: url(../img/Mason_Stang_Portrait.png);
+  background-size: cover; */
+  background: transparent;
+  
+}
+#portrait h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: sans-serif;
+  width: 60%;
+  
 }
 
 /* #nav-and-portrait {
