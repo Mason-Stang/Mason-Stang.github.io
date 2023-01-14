@@ -1115,8 +1115,11 @@ body {
     align-items: center;
   }
   .workplace img {
-    width: 100%;
+    width: 80%;
     height: auto;
+  }
+  .workplace p {
+    width: 80%;
   }
 }
 
