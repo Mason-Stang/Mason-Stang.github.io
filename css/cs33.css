@@ -6,9 +6,10 @@
   --heading-text-color: #240f02;
   --body-text-color: #2a1a03;
   --light-tan-bg: #d7bc72;
-  --lighter-tan-bg: #f0dca3;
+  /* --lighter-tan-bg: #f0dca3; */
+  --lighter-tan-bg: #000080;
   /* --green-bg: #cad9c9; */
-  --green-bg: transparent;
+  --green-bg: #f5f5f5;
   --light-green-bg: #9bb899;
 
   --camo-brown: #837957;
@@ -398,7 +399,8 @@ td, th {
 
 /* Custom section types */
 .content-section:before {
-  background-color: #323c18;
+  /* background-color: #323c18; */
+  background-color: #0000cd;
   height: 35px;
   width: 100%;
   left: 0;
@@ -529,13 +531,13 @@ footer a {
   -webkit-transition: background .3s ease-in-out;
   -moz-transition: background .3s ease-in-out;
   transition: background .3s ease-in-out;
-  color: #222e23;
+  color: #f0eeee;
   font-family: ComicTextBold;
   font-size: 1.6rem;
 }
 
 .navbar-custom .nav li a:hover {
-  color: #5a5c5a;
+  color: #8d8d8d;
   background-color: transparent;
 }
 
@@ -549,7 +551,7 @@ footer a {
 }
 
 .navbar-custom .nav li.active a:hover {
-  color: #5a5c5a;
+  color: #8d8d8d;
 }
 
 /* .brand-heading {
@@ -897,7 +899,8 @@ body {
 .course-logo-font, .course-logo-font:hover, .course-logo-font:focus {
   font-family: TWDHeaderFont;
   font-size: 35px;
-  color: var(--heading-text-color);
+  /* color: var(--heading-text-color); */
+  color: #f0eeee;
   text-shadow: 2px 2px 0 #837957;
   /* text-shadow: 2px 2px 0 var(--body-text-color)7E; */
   /* -webkit-text-stroke: 1px var(--body-text-color)7E; */
@@ -1125,9 +1128,6 @@ body {
   
 }
 
-/* #nav-and-portrait {
-  overflow: 
-} */
 
 @media screen and (min-width: 768px) {
   .p-section h1 {

@@ -1,6 +1,8 @@
 Parallax.js
 ===========
 
+Reference: https://pixelcog.github.io/parallax.js/
+
 Simple parallax scrolling effect inspired by [Spotify.com](http://spotify.com/) implemented as a jQuery plugin  
 [http://pixelcog.com/parallax.js/](http://pixelcog.com/parallax.js/)
 
