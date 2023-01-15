@@ -1083,6 +1083,19 @@ body {
   /* padding-left: 200px; */
   margin-left: 5%;
   width: 60%;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+.workplace-content h2 {
+  font-family: "Montserrat", Arial, serif;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.workplace-content h4, i {
+  font-family: "Montserrat", Arial, serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #2eb82e;
 }
 
 @media (max-width:768px) {
