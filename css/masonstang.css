@@ -1,5 +1,5 @@
 /*
- * Custom CSS for CS33
+ * Custom CSS for Mason Stang Personal Website
  */
 
 :root {
@@ -14,20 +14,10 @@
   --body-text-color: #181818;
   /**/
 
-
-  
-  --light-tan-bg: #d7bc72;
-  /* --blue-nav: #f0dca3; */
-  /* --white-bg: #cad9c9; */
-  --light-green-bg: #9bb899;
-
-  --camo-brown: #837957;
-  
-
   --comic-red: #cc605f;
 }
 
-@font-face {
+/* @font-face {
   font-family: TWDHeaderFont;
   src: url("../img/dafont/DeadFontWalking.otf");
 }
@@ -35,7 +25,7 @@
 @font-face {
   font-family: TWDTitleFont;
   src: url("../img/dafont/DeadKansas.ttf");
-}
+} */
 
 @font-face {
   font-family: ComicText;
@@ -69,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   /*text-transform: uppercase;*/
   /*font-family: "Verdana", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   /* text-shadow: 2px 2px 0 #adadad; */
-  font-family: TWDTitleFont;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 400;
   letter-spacing: 4px;
 }
@@ -114,7 +104,7 @@ ul {
 /* Tables */
 table {
 
-  background-color: var(--light-green-bg);
+  background-color: var(--white-bg);
   font-size: 1.1em;
   margin-bottom: 40px;
 }
@@ -126,7 +116,7 @@ tr:nth-child(2n+1) {
 th {
   height: 3.0em;
   background-color: var(--comic-red);
-  font-family: ComicTextBold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.1em;
 
 }
@@ -290,10 +280,10 @@ td, th {
   }
 }
 
-@font-face {
-  font-family: SchoolBus;
+/* @font-face {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   src: url('../img/font-awesome/fonts/happy_food/Happy\ Food.otf') format('opentype');
-}
+} */
 
 /* Alternate background colors (and adjust text colors to compensate) */
 /* .section-header {
@@ -529,7 +519,7 @@ footer a {
   margin-bottom: 0;
   font-size: 0.9em;
   border-bottom: 1px solid rgba(255, 255, 255, .3);
-  font-family: Montserrat, Geneva, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-transform: capitalize;
   font-weight: 600;
   display: flex;
@@ -542,8 +532,8 @@ footer a {
   -moz-transition: background .3s ease-in-out;
   transition: background .3s ease-in-out;
   color: var(--white-text);
-  font-family: ComicTextBold;
-  font-size: 1.6rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.7rem;
 }
 
 .navbar-custom .nav li a:hover {
@@ -661,7 +651,7 @@ footer a {
 }
 
 .resources-header {
-  font-family: ComicTextBold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.8rem;
   /* margin-left: -2rem; */
 }
@@ -771,28 +761,6 @@ footer {
   }
 }
 
-/*.btn-square {
-    font-family: Montserrat, Geneva, Arial,  sans-serif !important;
-    width: 300px;
-    height: 50px;
-    margin-top: 15px;
-    padding: 15px 20px;
-    font-size: 30px;
-    font-weight: 700 !important;
-    color: #fff;
-    background: 0 0;
-}
-
-.btn-circle:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-}*/
 
 @-webkit-keyframes pulse {
   0% {
@@ -895,7 +863,7 @@ body {
 }
 
 .course-logo-font, .course-logo-font:hover, .course-logo-font:focus {
-  font-family: TWDHeaderFont;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 35px;
   /* color: var(--heading-text-color); */
   color: var(--white-text);
@@ -1052,7 +1020,7 @@ body {
 #portrait h1 {
   text-align: center;
   font-size: 4rem;
-  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   width: 60%;
   color: var(--white-text);
   font-style: bold;
@@ -1063,7 +1031,7 @@ body {
 #portrait h3 {
   text-align: center;
   font-size: 2.5rem;
-  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   width: 60%;
   color: var(--white-text);
   font-style: italic;
@@ -1097,6 +1065,7 @@ body {
   align-items: flex-start;
   justify-content: center;
 }
+
 .workplace img {
   /* width: 170px; */
   width: 200px;
@@ -1105,6 +1074,10 @@ body {
   object-fit: cover;
   vertical-align: top;
   /* float: left; */
+  opacity: 1.0;
+}
+.workplace img:hover {
+  opacity: 0.7;
 }
 .workplace-content {
   /* padding-left: 200px; */
@@ -1119,9 +1092,17 @@ body {
     align-items: center;
     justify-content: center;
   }
-  .workplace img {
-    width: 80%;
+  .workplace a {
     height: auto;
+    width: 80%;
+  }
+  .workplace img {
+    width: 100%;
+    height: auto;
+    opacity: 1.0;
+  }
+  .workplace img:hover {
+    opacity: 1.0;
   }
   .workplace-content {
     width: 80%;
@@ -1129,20 +1110,4 @@ body {
     margin-top: 5%;
   }
 }
-
-
-
-
-
-
-/* 
-for reference:
-@media screen and (min-width: 768px) {
-  .p-section h1 {
-    font-size: 8rem;
-  }
-  .parallax h1 {
-    font-size: 4rem;
-  }
-} */
 
