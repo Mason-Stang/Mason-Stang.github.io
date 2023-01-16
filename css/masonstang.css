@@ -1067,13 +1067,10 @@ body {
 }
 
 .workplace img {
-  /* width: 170px; */
   width: 200px;
-  /* height: 130px; */
   height: 153px;
   object-fit: cover;
   vertical-align: top;
-  /* float: left; */
   opacity: 1.0;
 }
 .workplace img:hover {
@@ -1082,7 +1079,7 @@ body {
 .workplace-content {
   /* padding-left: 200px; */
   margin-left: 5%;
-  width: 60%;
+  width: 70%;
   /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
@@ -1090,12 +1087,16 @@ body {
   font-family: "Montserrat", Arial, serif;
   font-weight: 600;
   letter-spacing: 3px;
+  margin-top: 0px;
 }
 .workplace-content h4, i {
   font-family: "Montserrat", Arial, serif;
   font-weight: 600;
   letter-spacing: 2px;
   color: #2eb82e;
+}
+.workplace-content p {
+  margin-bottom: 20px;
 }
 
 @media (max-width:768px) {
