@@ -12,6 +12,7 @@
   --white-text: #f0eeee;
   --heading-text-color: #1a1a1a;
   --body-text-color: #181818;
+  --dark-bg: #1a1a1a;
   /**/
 
   --comic-red: #cc605f;
@@ -1011,7 +1012,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
   /* background: url(../img/Mason_Stang_Portrait.png);
   background-size: cover; */
   background: transparent;
@@ -1125,3 +1125,77 @@ body {
   }
 }
 
+
+/* My Interests section */
+#my-interests {
+  /* background-color: var(--dark-bg); */
+}
+.interests-content {
+  /* height: 50vh; */
+  background-color: var(--dark-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  margin-bottom: 0px;
+}
+.interests-content p {
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  color: var(--white-text);
+  margin-bottom: 15px;
+}
+#my-interests-intro {
+  color: var(--white-text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+#my-interests-intro p {
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  color: var(--white-text);
+  margin-bottom: 15px;
+}
+#my-interests-intro h2 {
+  color: var(--white-text);
+}
+.blue-bar {
+  background-color: var(--blue-nav);
+  height: 35px;
+  width: 100%;
+  left: 0;
+  /* position: absolute; */
+  margin-top: 0px;
+  margin-bottom: -35px;
+  display: block;
+
+}
+
+.interest-img {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+.interest-img h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Montserrat", Arial, serif;
+  width: 80%;
+  color: var(--white-text);
+  font-style: bold;
+  margin: 5px 0;
+  font-weight: 800;
+}
