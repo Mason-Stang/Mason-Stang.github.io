@@ -18,25 +18,6 @@
   --comic-red: #cc605f;
 }
 
-/* @font-face {
-  font-family: TWDHeaderFont;
-  src: url("../img/dafont/DeadFontWalking.otf");
-}
-
-@font-face {
-  font-family: TWDTitleFont;
-  src: url("../img/dafont/DeadKansas.ttf");
-} */
-
-@font-face {
-  font-family: ComicText;
-  src: url("../img/dafont/adamwarrenpro.ttf");
-}
-
-@font-face {
-  font-family: ComicTextBold;
-  src: url("../img/dafont/adamwarrenpro-bold.ttf");
-}
 
 * {
   color: var(--body-text-color);
