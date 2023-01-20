@@ -26,7 +26,6 @@
 body {
   width: 100%;
   font-family: "Montserrat", Arial, serif;
-  /* font-family: ComicText; */
   background-color: var(--white-bg);
   margin: 0
 }
@@ -37,19 +36,10 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  /* margin: 35px 0; */
-  /*text-transform: uppercase;*/
-  /*font-family: "Verdana", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  /* text-shadow: 2px 2px 0 #adadad; */
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 400;
   letter-spacing: 4px;
 }
-
-/* h3 {
-  color: #282512;
-  text-shadow: 1px 2px 0px rgb(64 92 73 / 70%);
-} */
 
 p {
   margin: 0 0 25px;
@@ -69,7 +59,6 @@ blockquote, tagline {
   font-family: ComicText;
   font-size: 1.1em;
   line-height: 1.8em;
-  /* font-style: italic; */
 }
 
 a:hover,
@@ -262,17 +251,6 @@ td, th {
   }
 }
 
-/* @font-face {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  src: url('../img/font-awesome/fonts/happy_food/Happy\ Food.otf') format('opentype');
-} */
-
-/* Alternate background colors (and adjust text colors to compensate) */
-/* .section-header {
-  background-color: var(--white-bg);
-  height: 50px;
-} */
-
 .info-box-opaque {
   background-color: rgba(245, 245, 245, 0.97);
   display: flex;
@@ -317,8 +295,6 @@ td, th {
   color: var(--body-text-color);
   border-radius: 5px;
   font-weight: bold;
-  /* background-color: rgb(233 233 233 / 50%); */
-  /* padding: 0px 4px; */
 }
 
 #assignments a:hover {
@@ -333,8 +309,6 @@ td, th {
   color: var(--body-text-color);
   border-radius: 5px;
   font-weight: bold;
-  /* background-color: rgb(233 233 233 / 50%); */
-  /* padding: 0px 4px; */
 }
 
 #lectures a:hover {
@@ -415,7 +389,6 @@ td, th {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* letter-spacing: 0px; */
 }
 
 .section-title-img {
@@ -535,10 +508,6 @@ footer a, footer p, footer span {
 .navbar-custom .nav li.active a:hover {
   color: #8d8d8d;
 }
-
-/* .brand-heading {
-  padding-top:20px;
-} */
 
 
 @media(min-width:768px) {
@@ -660,14 +629,11 @@ footer {
   vertical-align: middle;
   /* padding-bottom: 20px; */
   padding-top: 50px;
-  /* background-color: #c0e6b6; */
-
   background-color: var(--white-bg);
 }
 
 .intro .brand-heading {
   font-size: 50px;
-  /* color: #ffffff; */
   color: var(--heading-text-color);
 
 }
@@ -981,8 +947,6 @@ body {
   /* border-bottom: #2a1a03 solid 1px; */
 }
 
-
-/* I added this... */
 
 
 /* self portrait on intro page*/
